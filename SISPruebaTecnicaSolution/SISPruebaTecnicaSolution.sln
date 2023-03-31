@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SISPruebaTecnica.API", "SISPruebaTecnica.API\SISPruebaTecnica.API.csproj", "{8364641C-499C-4E69-8D33-27FFB8A701F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{907CC56D-C76C-4563-865D-3E21FA26CB78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E458E029-C752-4E92-962C-3667AF75378A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A048287E-F369-4058-AA7B-9777FB6ED3C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0B9D55D5-ED17-4401-AF92-1227B42E31B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SISPruebaTecnica.DataAccess", "SISPruebaTecnica.DataAccess\SISPruebaTecnica.DataAccess.csproj", "{042D3380-6583-4501-A5A9-ABA9F64E205E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SISPruebaTecnica.Entities", "SISPruebaTecnica.Entities\SISPruebaTecnica.Entities.csproj", "{4DBC616E-2F4A-40B1-BC76-88F8E60F2133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SISPruebaTecnica.Services", "SISPruebaTecnica.Services\SISPruebaTecnica.Services.csproj", "{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DE5899F-F8C4-4B85-A3D6-955EA718E68B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8364641C-499C-4E69-8D33-27FFB8A701F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8364641C-499C-4E69-8D33-27FFB8A701F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8364641C-499C-4E69-8D33-27FFB8A701F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8364641C-499C-4E69-8D33-27FFB8A701F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042D3380-6583-4501-A5A9-ABA9F64E205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042D3380-6583-4501-A5A9-ABA9F64E205E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042D3380-6583-4501-A5A9-ABA9F64E205E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042D3380-6583-4501-A5A9-ABA9F64E205E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBC616E-2F4A-40B1-BC76-88F8E60F2133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBC616E-2F4A-40B1-BC76-88F8E60F2133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBC616E-2F4A-40B1-BC76-88F8E60F2133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBC616E-2F4A-40B1-BC76-88F8E60F2133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8364641C-499C-4E69-8D33-27FFB8A701F9} = {0B9D55D5-ED17-4401-AF92-1227B42E31B1}
+		{042D3380-6583-4501-A5A9-ABA9F64E205E} = {907CC56D-C76C-4563-865D-3E21FA26CB78}
+		{4DBC616E-2F4A-40B1-BC76-88F8E60F2133} = {A048287E-F369-4058-AA7B-9777FB6ED3C0}
+		{4D0FCC1F-CBFA-4FB7-A83B-9EB3C2E5AEC8} = {E458E029-C752-4E92-962C-3667AF75378A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B202BA-3AFE-4706-8F26-CE9381ADD204}
+	EndGlobalSection
+EndGlobal
